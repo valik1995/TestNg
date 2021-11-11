@@ -23,6 +23,21 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Person person = new Person("Valin", "375336.506619@mail.ru", "33-650-66-19");
+
+        if(person.isFirstNameValid()){
+            System.out.println("Valid first name");
+        }else {
+            System.out.println("Not Valid first name");
+
+        }
+
+        if(person.isEmailValid()){
+            System.out.println("Valid email");
+        }else {
+            System.out.println("Not Valid email");
+
+        }
 
     }
 }
