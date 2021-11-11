@@ -5,7 +5,6 @@
     <classes>
       <class name="FirstTest">
         <methods>
-          <include name="simpleTest"/>
           <include name="emptyStrTest"/>
         </methods>
       </class> <!-- FirstTest -->
